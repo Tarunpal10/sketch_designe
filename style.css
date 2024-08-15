@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+button:active{
+    background-color: red;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color:ghostwhite;
+}
+.heading1{
+    padding-top: 20px;
+    height: 70px;
+    text-decoration: underline;
+    color: darkslategray;
+}
+.pii{
+    margin-bottom: 20px;
+}
+.allbtn{
+    height: 80px;
+    padding-top: 20px;
+}
+button{
+    background-color: white;
+    border: 2px solid rgb(0, 53, 128);
+    height: 30px;
+    margin-right:5px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 20px;
+    border-radius: 10px;
+    transition: all 800ms ease-in-out;
+}
+button:hover{
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    transform: translateY(-2px);
+}
+.container{
+
+    height: 490px;
+    width: 490px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+.sketchlinetogle{
+    height: 300px;
+    width: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: black; 
+    margin: 50px 100px;
+    z-index: 1;
+    background-color: black;
+}
+
+#sketchline{
+    height: 300px;
+    width: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: black;
+    margin: 50px 100px;
+    z-index: -1;    
+}
+.sketchcircletogle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: black;
+}
+.sketchoveltogle{
+    height: 200px;
+    width: 300px;
+    border-radius: 100%;
+    border: 2px solid black;
+    background-color: black;
+}
+.sketchrectangletogle{
+    height: 190px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: black;
+}
+.sketchsquaretogle{
+    height: 300px;
+    width: 300px;
+    border: 2px solid  black;
+    background-color: black;
+}
+.sketchtriangletogle{
+
+
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 200px solid #000000;
+}
+#reset{
+    margin-top: 5px;
+    height: 30px;
+    width: 150px;
+}
